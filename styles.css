@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-image: url(pic1.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.main-nav {
+    float: right;
+    list-style: none;
+    margin-top: 30px;
+}
+
+.main-nav li {
+display: inline;
+}
+
+.main-nav li a {
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-size: 18px;
+}
+
+.main-nav li.active {
+    font-weight: bolder;
+}
+
+.main-nav li a:hover {
+    border: 1px solid black;
+    border-radius: 5px;
+    font-weight: bold;
+    color: white;
+    background-color: blue;
+}
+
+.logo img {
+    width: 100px;
+    height: auto;
+    float: left;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.text {
+    position: absolute;
+    margin-left: 455px;
+    padding: 10px;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 200px;
+    color: white;
+    opacity: 0.8;
+    background-color: grey;
+    font-family: 'Roboto', sans-serif;
+}
+
+.button {
+position: absolute;
+margin-top: 350px;
+margin-left: 450px;
+
+}
+
+.btn {
+text-decoration: none;
+border: 1px solid black;
+padding: 10px 25px;
+margin-left: 30px;
+text-transform: uppercase;
+font-family: 'Roboto', sans-serif;
+color: white;
+background-color: gray;
+}
+
+.btn:hover {
+    background-color: blue;
+}
